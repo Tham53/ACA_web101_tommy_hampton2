@@ -1,0 +1,46 @@
+header {
+    border: 2px solid green;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    background-color: silver;
+    padding: 1em;
+}
+main{
+    border: 2px solid green;
+    background-color: ;
+    padding: 1em;
+}
+.profile {
+    border: 2px solid green;
+    display: flex;
+    font-size: x-large;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.Book {
+    font-size: x-large;
+}
+#pic{
+    background-image: url(./goggins.jpg);
+    background-position: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 0em;
+}
+.Book {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.Experience {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
