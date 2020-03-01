@@ -1,0 +1,41 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+#container {
+    width: 1024px;
+    height: 774px;
+    background-color: white;
+    margin: auto;
+}
+#container2 {
+    width: 1024px;
+    height: 774px;
+    background-color: white;
+    margin: auto;
+}
+#container3 {
+    width: 1024px;
+    height: 774px;
+    background-color: white;
+    margin: auto;
+}
+#container4 {
+    width: 1024px;
+    height: 774px;
+    background-color: white;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: green;
+    }
+}
+header {
+    /* give each element some color to see more easily */
+    background-color: cyan;
+    /* notice this property on each rule, though, we'll use it when we're laying out the Parent Element's grid-template-area */
+    grid-area: header;
+  }
