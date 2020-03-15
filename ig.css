@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+  background-size: 1000, 1000;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  height: auto;
+  width: 100%;
+}
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+div {
+  background-repeat: no-repeat;
+  height:300px;
+  width: 500px;
+}
+
+.fearless {
+  background-image: url("./fearless.jpg");
+}
+.good {
+  background-image: url("good.jpg");
+}
+
+.kickass {
+  background-image: url("kickass.jpg");
+}
+
+.punch {
+  background-image: url("punch.jpg");
+}
+
+.putinwork {
+  background-image: url("putinwork.jpg");
+}
+
+.refuse {
+  background-image: url("refuse.jpg");
+}
+
+.up {
+  background-image: url("up.jpg");
+}
+
+.work {
+  background-image: url("work.jpg");
+}
+
+.yougotthis {
+  background-image: url("yougotthis.jpg");
+}
+
+.overlay{
+  display: none;
+}
+/* 
+div:hover + .overlay{
+  display:block;
+  transition: .5s ease;
+  background-color: #008CBA;
+  opacity: 1;
+} */
+div:hover {
+  background-image: none;
+  background-color: transparent;
+}
+div > p {
+  display: none;
+}
+div:hover p{
+  display: block
+}
